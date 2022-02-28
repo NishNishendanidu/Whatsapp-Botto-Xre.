@@ -1,0 +1,182 @@
+{
+    "general": [
+        {
+            "command": "help",
+            "description": "Well....",
+            "usage": "help"
+        },
+        {
+            "command": "profile",
+            "description": "Displays the profile of the tagged user",
+            "usage": "profile (tag) | (@mention)"
+        },
+        {
+            "command": "group",
+            "description": "Displays the group info",
+            "usage": "group"
+        },
+        {
+            "command": "info",
+            "description": "Displays my info",
+            "usage": "info"
+        },
+        {
+            "command": "commits",
+            "description": "Displays all the latest code commits on me",
+            "usage": "commits"
+        },
+        {
+            "command": "issues",
+            "description": "Displays the issues with the Xre Repository",
+            "usage": "issues"
+        }
+    ],
+    "admin": [
+        {
+            "command": "promote",
+            "description": "Makes the tagged user admin",
+            "usage": "promote @tag"
+        },
+        {
+            "command": "demote",
+            "description": "Demotes the tagged from admin",
+            "usage": "demote @tag"
+        },
+        {
+            "command": "remove",
+            "description": "removes the tagged person",
+            "usage": "removes @tag"
+        },
+        {
+            "command": "open",
+            "description": "opens the group",
+            "usage": "open"
+        },
+        {
+            "command": "close",
+            "description": "closes the group",
+            "usage": "close"
+        },
+        {
+            "command": "delete",
+            "description": "Deletes the quoted message",
+            "usage": "delete [quoted]"
+        },
+        {
+            "command": "register",
+            "description": "registers certain features on the group chat",
+            "usage": "register feature"
+        },
+        {
+            "command": "unregister",
+            "description": "unregister certain features on the group chat",
+            "usage": "unregister feature"
+        },
+        {
+            "command": "everyone",
+            "description": "Tags everyone in the chat",
+            "usage": "everyone"
+        },
+        {
+            "command": "purge",
+            "description": "removes everyone from the group [Note: Only the group creator can use this cmd]",
+            "usage": "purge"
+        }
+    ],
+    "media": [
+        {
+            "command": "sticker",
+            "description": "Converts images/videos into sticker",
+            "usage": "sticker as caption of an image/video"
+        },
+        {
+            "command": "img",
+            "description": "Converts static sticker into an image",
+            "usage": "img while tagging sticker"
+        },
+        {
+            "command": "subred",
+            "description": "Fetches a random post from the given subreddit",
+            "usage": "subred subreddit"
+        },
+        {
+            "command": "gify",
+            "description": "Fetches random gifs from a given keyword",
+            "usages": "gify neko"
+        },
+        {
+            "command": "yts",
+            "description": "Searches for videos on https://youtube.com",
+            "usage": "yts search_term"
+        },
+        {
+            "command": "ytv",
+            "description": "Downloads and sends the given YouTube Video URL",
+            "usage": "ytv url"
+        },
+        {
+            "command": "yta",
+            "description": "Downloads and sends the given YouTube Video URL as audio",
+            "usage": "yta url"
+        },
+        {
+            "command": "lyrics",
+            "description": "Fetches lyrics from the given song title",
+            "usage": "lyrics term"
+        }
+    ],
+    "fun": [
+        {
+            "command": "pat",
+            "description": "Pats the mentioned or quoted person",
+            "usage": "pat"
+        },
+        {
+            "command": "punch",
+            "description": "Punches the mentioned or quoted person",
+            "usage": "punch"
+        },
+        {
+            "command": "slap",
+            "description": "slaps the mentioned or quoted person",
+            "usage": "slap"
+        }
+    ],
+    "weeb": [
+        {
+            "command": "wallpaper",
+            "description": "Fetches an anime-styled-wallpaper on the given term",
+            "usage": "wallpaper term"
+        },
+        {
+            "command": "anime",
+            "description": "Searches for anime based on the given query",
+            "usage": "anime title"
+        },
+        {
+            "command": "manga",
+            "description": "Searches for manga based on the given query",
+            "usage": "manga title"
+        },
+        {
+            "command": "character",
+            "description": "Searches for character based on the given query",
+            "usage": "character name"
+        },
+        {
+            "command": "aid",
+            "description": "Displays the info of the given Anime ID",
+            "usage": "aid anime_id"
+        },
+        {
+            "command": "mid",
+            "description": "Displays the info of the given Manga ID",
+            "usage": "mid manga_id"
+        },
+        {
+            "command": "chid",
+            "description": "Displays the info of the given Character ID",
+            "usage": "chid character_id"
+        }
+    ]
+}
